@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap,family=Poppins:wght@300&display=swap');
 
-*{
+* {
   margin: 0%;
   padding: 0% 1%;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-/* body{
-  background-image: url(/assets/bg.png); background-position: center; background-size: contain;
-  
-} */
+
+.logoName {
+  font-family: 'Pacifico', cursive;
+}
 
 .reveal {
   position: relative;
@@ -77,13 +77,13 @@ button {
   font-size: 18px;
 }
 
-/* a {
+a {
   text-decoration: none;
   font-size: 22px;
   color: black;
-} */
+}
 
-button a{
+button a {
   text-decoration: none;
   font-size: 22px;
   color: white;
@@ -101,12 +101,4 @@ a:hover {
     grid-template-columns: auto auto auto;
     grid-gap: 5%;
   }
-}
-.dev{
-  width: 180px;
-}
-.dev a{
-  text-decoration: none;
-  font-size: 1em;
-  color: white; 
 }
